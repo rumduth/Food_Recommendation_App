@@ -129,9 +129,6 @@ app.use(
                 "data:",
                 "https://res.cloudinary.com/dvuif2x20/", //SHOULD MATCH YOUR CLOUDINARY ACCOUNT! 
                 "https://images.unsplash.com/",
-                "https://media.istockphoto.com/id/1457889029/photo/group-of-food-with-high-content-of-dietary-fiber-arranged-side-by-side.jpg?b=1&s=612x612&w=0&k=20&c=BON5S0uDJeCe66N9klUEw5xKSGVnFhcL8stPLczQd_8=",
-                "https://img.freepik.com/free-photo/tasty-burger-isolated-white-background-fresh-hamburger-fastfood-with-beef-cheese_90220-1063.jpg?size=338&ext=jpg&ga=GA1.1.735520172.1711065600&semt=sph",
-                "https: data:"
             ],
             fontSrc: ["'self'", ...fontSrcUrls],
         },
@@ -209,5 +206,6 @@ app.use( (err,req,res,next) => {
 app.listen(3002, () => {
     console.log('Serving on port 3000')
 })
+
 
 
